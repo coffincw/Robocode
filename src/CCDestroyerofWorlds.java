@@ -102,7 +102,8 @@ public class CCDestroyerofWorlds extends AdvancedRobot {
      */
     public void onHitByBullet(HitByBulletEvent e) {
         // Replace the next line with any behavior you would like
-        back(10);
+        setBack(100);
+        setTurnRight(50);
     }
 
     public void onHitRobot(HitRobotEvent e) {
